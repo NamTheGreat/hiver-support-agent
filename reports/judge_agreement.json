@@ -1,0 +1,138 @@
+{
+  "n_samples": 50,
+  "human_evaluator": "Candidate (Author)",
+  "rubric_dimensions": [
+    "correctness",
+    "groundedness",
+    "tone",
+    "actionability"
+  ],
+  "metrics_by_dimension": {
+    "correctness": {
+      "pearson_r": 0.2182,
+      "spearman_r": 0.2182,
+      "exact_match_rate": 0.72,
+      "near_exact_rate": 1.0,
+      "human_mean": 3.9,
+      "llm_mean": 3.7
+    },
+    "groundedness": {
+      "pearson_r": 1.0,
+      "spearman_r": 1.0,
+      "exact_match_rate": 0.9,
+      "near_exact_rate": 1.0,
+      "human_mean": 4.9,
+      "llm_mean": 5.0
+    },
+    "tone": {
+      "pearson_r": 1.0,
+      "spearman_r": 1.0,
+      "exact_match_rate": 1.0,
+      "near_exact_rate": 1.0,
+      "human_mean": 5.0,
+      "llm_mean": 5.0
+    },
+    "actionability": {
+      "pearson_r": 0.0322,
+      "spearman_r": 0.0322,
+      "exact_match_rate": 0.64,
+      "near_exact_rate": 0.98,
+      "human_mean": 4.08,
+      "llm_mean": 3.7
+    },
+    "composite": {
+      "pearson_r": 0.0947,
+      "spearman_r": 0.0551,
+      "exact_match_rate": 0.54,
+      "near_exact_rate": 1.0,
+      "human_mean": 4.47,
+      "llm_mean": 4.35
+    }
+  },
+  "top_disagreements": [
+    {
+      "id": 170,
+      "tweet_id": "2220845",
+      "customer_message": "Hey, :",
+      "draft_reply": "We'd like to help you resolve this. Could you let us know what device model and iOS version you are currently running?",
+      "composite_human": 4.75,
+      "composite_llm": 4.0,
+      "absolute_difference": 0.75,
+      "dimensional_breakdown": {
+        "correctness": {
+          "human": 4,
+          "llm": 3
+        },
+        "groundedness": {
+          "human": 5,
+          "llm": 5
+        },
+        "tone": {
+          "human": 5,
+          "llm": 5
+        },
+        "actionability": {
+          "human": 5,
+          "llm": 3
+        }
+      },
+      "analysis": "LLM judge scored composite at 4.00 while human evaluator rated it 4.75. The divergence arises from human rater requiring immediate self-serve actions for terse queries where the LLM judge accepted clarifying questions."
+    },
+    {
+      "id": 173,
+      "tweet_id": "1746920",
+      "customer_message": "\u0623\u062e\u064a\u0631\u0627. \ud83d\ude0d\ud83d\ude0d",
+      "draft_reply": "We'd like to help you resolve this. Could you let us know what device model and iOS version you are currently running?",
+      "composite_human": 4.5,
+      "composite_llm": 4.0,
+      "absolute_difference": 0.5,
+      "dimensional_breakdown": {
+        "correctness": {
+          "human": 4,
+          "llm": 3
+        },
+        "groundedness": {
+          "human": 5,
+          "llm": 5
+        },
+        "tone": {
+          "human": 5,
+          "llm": 5
+        },
+        "actionability": {
+          "human": 4,
+          "llm": 3
+        }
+      },
+      "analysis": "LLM judge scored composite at 4.00 while human evaluator rated it 4.50. The divergence arises from human rater requiring immediate self-serve actions for terse queries where the LLM judge accepted clarifying questions."
+    },
+    {
+      "id": 125,
+      "tweet_id": "1467798",
+      "customer_message": ". pls explain",
+      "draft_reply": "We'd like to help you resolve this. Could you let us know what device model and iOS version you are currently running?",
+      "composite_human": 4.5,
+      "composite_llm": 4.0,
+      "absolute_difference": 0.5,
+      "dimensional_breakdown": {
+        "correctness": {
+          "human": 4,
+          "llm": 3
+        },
+        "groundedness": {
+          "human": 5,
+          "llm": 5
+        },
+        "tone": {
+          "human": 5,
+          "llm": 5
+        },
+        "actionability": {
+          "human": 4,
+          "llm": 3
+        }
+      },
+      "analysis": "LLM judge scored composite at 4.00 while human evaluator rated it 4.50. The divergence arises from human rater requiring immediate self-serve actions for terse queries where the LLM judge accepted clarifying questions."
+    }
+  ]
+}

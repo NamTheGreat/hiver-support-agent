@@ -1,0 +1,79 @@
+{
+  "system": "trivial",
+  "n_examples": 180,
+  "intent_accuracy": 0.1167,
+  "intent_macro_f1": 0.0299,
+  "per_class_metrics": {
+    "app_crash_freeze": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 20
+    },
+    "battery_charging": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 20
+    },
+    "billing_order": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 20
+    },
+    "keyboard_autocorrect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 20
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 53
+    },
+    "software_update": {
+      "precision": 0.1167,
+      "recall": 1.0,
+      "f1": 0.209,
+      "support": 21
+    },
+    "system_glitch_bug": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 26
+    },
+    "macro avg": {
+      "precision": 0.0167,
+      "recall": 0.1429,
+      "f1": 0.0299,
+      "support": 180
+    },
+    "weighted avg": {
+      "precision": 0.0136,
+      "recall": 0.1167,
+      "f1": 0.0244,
+      "support": 180
+    }
+  },
+  "routing": {
+    "accuracy": 0.6667,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "f1": 0.8,
+    "escalation_rate": 1.0,
+    "reason_breakdown": {
+      "LOW_CONFIDENCE": 180
+    }
+  },
+  "judge": {
+    "mean_correctness": 2.0,
+    "mean_groundedness": 1.0,
+    "mean_tone": 4.0,
+    "mean_actionability": 2.0,
+    "mean_composite": 2.25
+  }
+}

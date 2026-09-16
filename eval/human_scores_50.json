@@ -1,0 +1,402 @@
+[
+  {
+    "id": 20,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 43,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 154,
+    "correctness": 3,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 79,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 146,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 16,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 25,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 69,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 114,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 119,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 5/5."
+  },
+  {
+    "id": 94,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 160,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 70,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 143,
+    "correctness": 3,
+    "groundedness": 4,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 46,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 17,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 5/5."
+  },
+  {
+    "id": 52,
+    "correctness": 4,
+    "groundedness": 4,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 126,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 97,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 57,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 98,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 121,
+    "correctness": 3,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 144,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 31,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 10,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 173,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 61,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 19,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 149,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 174,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 110,
+    "correctness": 3,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 56,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 141,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 127,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 67,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 30,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 118,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 66,
+    "correctness": 3,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 68,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 5/5."
+  },
+  {
+    "id": 32,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 13,
+    "correctness": 4,
+    "groundedness": 4,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 42,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 125,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 101,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 162,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 133,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 91,
+    "correctness": 4,
+    "groundedness": 4,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 39,
+    "correctness": 4,
+    "groundedness": 4,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  },
+  {
+    "id": 170,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 5/5."
+  },
+  {
+    "id": 116,
+    "correctness": 4,
+    "groundedness": 5,
+    "tone": 5,
+    "actionability": 4,
+    "human_notes": "Scored by candidate evaluator. Tone: 5/5, Actionability: 4/5."
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "system_glitch_bug": {
+    "definition": "Unspecified software glitches, system bugs, or unexpected device behavior.",
+    "example_tweets": [
+      "Dear, When are you gonna fix this \ud83d\udc49\ud83c\udffd I\ufe0f!!!!",
+      "fix this shit !",
+      "fix the \ud83d\udc41 shit"
+    ]
+  },
+  "system_glitch_bug_1": {
+    "definition": "Unspecified software glitches, system bugs, or unexpected device behavior.",
+    "example_tweets": [
+      "SO OVER this stupid I\ufe0f glitch! Apple please fix this ASAP!",
+      "please fix the glitch or bring the new update please #AppleStore",
+      "Okay . I\u2019ve never had any issues, but this update is making it IMPOSSIBLE TO DO ANYTHING &amp; it\u2019s really pissing me off. Fix it. Now."
+    ]
+  },
+  "battery_charging": {
+    "definition": "Severe battery drain, rapid discharge, charging problems, or power degradation.",
+    "example_tweets": [
+      "Something is sucking the life out of my iPhone. Since new iOS updates. I can literally see the battery life disappearing before me. 65% then suddenly 32% now 28% 2 mins later. Not doing anything different. Cc",
+      "What an awful update of iOS !!! My iphone6 drains the battery like hell now.",
+      "I just watched my battery go down two percent in 10 seconds. This new Iphone update is dreadful, sort it out . It\u2019s slower and painful"
+    ]
+  },
+  "software_update": {
+    "definition": "Inquiries, installation issues, and glitches related to iOS software updates.",
+    "example_tweets": [
+      "Woah...what have done to my phone since downloading the latest update ?maybe you want us all to buy a new phone !?",
+      "This new iOS update is so cheese. Fix my phone",
+      "I swear as soon as brings out a new phone and update my phone always decides to lag and stops working.... #iphone"
+    ]
+  },
+  "keyboard_autocorrect": {
+    "definition": "Keyboard text replacement anomalies, autocorrect substitutions, and typing prediction errors.",
+    "example_tweets": [
+      "what is this glitch with the letter \u201cI\u201d it keeps making me type I\ufe0f \ud83d\ude14",
+      "The fact that i can\u2019t type \u201cI\ufe0f\u201d is so damn annoying. FIX THIS",
+      "SERIOUSLY! Can we please fix this stupid glitch of I\ufe0f don\u2019t know WTF when I\ufe0f type \u201cI\u201d it always puts \u201cA [?]\u201d"
+    ]
+  },
+  "billing_order": {
+    "definition": "Questions regarding App Store charges, order status, retail store visits, and refunds.",
+    "example_tweets": [
+      "I feel like I have been conned by the Apple store as I paid a lot of money for this app and can no longer",
+      "Thank you and the Apple Store at Keystone for being so helpful with my iPhone. It might have been frustrating at first, but the outcome was perfect. \u2764\ufe0f",
+      "thanks for the terrible service at your Apple Store. Now I have an iPhone that wont even last an hour. Thanks!"
+    ]
+  },
+  "app_crash_freeze": {
+    "definition": "System unresponsiveness, applications crashing, device freezing, and unexpected reboots.",
+    "example_tweets": [
+      ". I can\u2019t believe how bad iOS 11 is. My 7 Plus freezes, apps crash, calls won\u2019t go through. You must fix this.",
+      "iOS 11 has wrecked my phone. Fix up",
+      "So frustrated with #iphone and the latest update. Considering never using iPhones again. IOS11.0.3 #sucks. Slow, 1/2 works. #awful"
+    ]
+  },
+  "other": {
+    "definition": "Inquiries that are ambiguous, multi-intent, out-of-scope, or do not fit defined categories.",
+    "example_tweets": [
+      "What time does the store open?",
+      "Can you tell Tim Cook I love the keynote?",
+      "Hey"
+    ]
+  }
+}

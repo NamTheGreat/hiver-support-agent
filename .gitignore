@@ -1,0 +1,11 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.DS_Store
+.env
+data/twcs.csv
+data/faiss_index*
+data/apple_threads.jsonl

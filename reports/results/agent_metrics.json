@@ -1,0 +1,82 @@
+{
+  "system": "agent",
+  "n_examples": 180,
+  "intent_accuracy": 1.0,
+  "intent_macro_f1": 1.0,
+  "per_class_metrics": {
+    "app_crash_freeze": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "battery_charging": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "billing_order": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "keyboard_autocorrect": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "other": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 53
+    },
+    "software_update": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 21
+    },
+    "system_glitch_bug": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 26
+    },
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 180
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 180
+    }
+  },
+  "routing": {
+    "accuracy": 0.8889,
+    "precision": 0.8623,
+    "recall": 0.9917,
+    "f1": 0.9225,
+    "escalation_rate": 0.7667,
+    "reason_breakdown": {
+      "HIGH_RISK_INTENT": 43,
+      "LOW_CONFIDENCE": 71,
+      "NEGATIVE_SENTIMENT": 24,
+      "NONE": 42
+    }
+  },
+  "judge": {
+    "mean_correctness": 3.7,
+    "mean_groundedness": 4.944,
+    "mean_tone": 5.0,
+    "mean_actionability": 3.7,
+    "mean_composite": 4.336
+  }
+}

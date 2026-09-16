@@ -1,0 +1,35 @@
+brand: AppleSupport
+data:
+  raw_csv: data/twcs.csv
+  subsample_csv: data/sample_subsample.csv
+  threads_jsonl: data/apple_threads.jsonl
+  taxonomy_json: data/intent_taxonomy.json
+  golden_jsonl: data/golden/golden_eval.jsonl
+  faiss_index: data/faiss_index
+  cache_dir: .cache
+
+model:
+  llm_backend: openai          # "openai" or "local"
+  openai_model: gpt-4o-mini
+  local_model: null            # optional local fallback
+  embedding_model: all-MiniLM-L6-v2
+  judge_model: gpt-4o-mini     # evaluation model for LLM-as-judge
+
+intents:
+  n_clusters_target: [5, 8]    # search this range, pick via silhouette score
+  other_threshold: 0.35
+
+retrieval:
+  top_k: 3
+  min_similarity: 0.40
+
+routing:
+  confidence_threshold: 0.80
+  auto_handle_allowlist: [battery_charging, software_update, keyboard_autocorrect]
+  sentiment_negative_threshold: -0.5   # VADER compound score
+
+sampling:
+  data_subsample_n: 5000
+  taxonomy_embed_n: 2000
+  golden_target: 180
+  random_seed: 42
