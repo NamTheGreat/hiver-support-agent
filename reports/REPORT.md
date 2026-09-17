@@ -111,6 +111,14 @@ The pipeline consists of modular, decoupled components with single responsibilit
 - Always executes retrieval and drafting even upon escalation (`for_human_review = True`), providing a high-quality co-pilot draft to assist human agents.
 - Logs all retrieved `source_thread_ids` at `INFO` level for full operational traceability.
 
+#### F. Unified LLM Interface & Provider Portability (`src/llm.py` & `.env`)
+- **Single Abstraction Barrier:** All generation across intent classification, taxonomy synthesis, reply drafting, and LLM-as-judge scoring flows strictly through `generate(prompt: str)` in `src/llm.py`. No component directly imports provider SDKs.
+- **Provider Switching via `.env`:** The client connects to any OpenAI-compatible API using standard environment variables:
+  - `OPENAI_API_KEY`: API authentication key.
+  - `OPENAI_BASE_URL`: API gateway endpoint. Supports standard OpenAI (`https://api.openai.com/v1`), Groq (`https://api.groq.com/openai/v1`), Together AI (`https://api.together.xyz/v1`), DeepSeek (`https://api.deepseek.com/v1`), OpenRouter (`https://openrouter.ai/api/v1`), or local inference servers like Ollama (`http://localhost:11434/v1`) and vLLM.
+  - `MODEL_NAME` & `JUDGE_MODEL_NAME`: Allows deploying independent model architectures for generation versus evaluation (e.g. `llama-3.3-70b-versatile` or `claude-3.5-sonnet` alongside `gpt-4o-mini`).
+- **Zero-Cost Graceful Degradation:** If `OPENAI_API_KEY` is omitted, the pipeline falls back to an embedded deterministic generator, enabling zero-cost evaluation and 100% offline testing.
+
 ---
 
 ## 3. Evaluation Results Across 3 Systems

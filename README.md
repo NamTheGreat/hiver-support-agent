@@ -64,6 +64,78 @@ python run_all.py --prefer-subsample
 
 ---
 
+## Configuring LLM Backends & API Providers (`.env`)
+
+The pipeline implements a single unified `generate(prompt: str)` abstraction in [`src/llm.py`](src/llm.py) that works with **any OpenAI-compatible API** or self-hosted model.
+
+### 1. Dual Execution Modes
+- **Offline Mode (Default, Free):** If `OPENAI_API_KEY` is not provided, the pipeline executes completely offline using a deterministic, calibrated generator. No internet, no API keys, and no costs are incurred.
+- **Live LLM API Mode:** When `OPENAI_API_KEY` is set, all taxonomy generation, intent classification, reply drafting, and LLM-as-judge scoring make live API calls.
+
+### 2. Setting Up Your `.env` File
+Create your local `.env` file from the provided template:
+```bash
+cp .env.example .env
+```
+*(Note: `.env` is already included in `.gitignore` to prevent leaking your private API keys).*
+
+### 3. Switching LLM Providers & Models
+
+#### A. Standard OpenAI (Default)
+```ini
+OPENAI_API_KEY=sk-proj-...
+OPENAI_BASE_URL=https://api.openai.com/v1
+MODEL_NAME=gpt-4o-mini
+JUDGE_MODEL_NAME=gpt-4o-mini
+```
+
+#### B. Groq (High-Speed Inference)
+```ini
+OPENAI_API_KEY=gsk_...
+OPENAI_BASE_URL=https://api.groq.com/openai/v1
+MODEL_NAME=llama-3.3-70b-versatile
+JUDGE_MODEL_NAME=llama-3.3-70b-versatile
+```
+
+#### C. Together AI
+```ini
+OPENAI_API_KEY=...
+OPENAI_BASE_URL=https://api.together.xyz/v1
+MODEL_NAME=meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
+JUDGE_MODEL_NAME=meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
+```
+
+#### D. DeepSeek
+```ini
+OPENAI_API_KEY=sk-...
+OPENAI_BASE_URL=https://api.deepseek.com/v1
+MODEL_NAME=deepseek-chat
+JUDGE_MODEL_NAME=deepseek-chat
+```
+
+#### E. Local Self-Hosted Model (Ollama or vLLM — 100% Free & Private)
+```ini
+OPENAI_API_KEY=ollama
+OPENAI_BASE_URL=http://localhost:11434/v1
+MODEL_NAME=llama3.1
+JUDGE_MODEL_NAME=llama3.1
+```
+
+#### F. OpenRouter (Multi-Provider Aggregator)
+```ini
+OPENAI_API_KEY=sk-or-...
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+MODEL_NAME=anthropic/claude-3.5-sonnet
+JUDGE_MODEL_NAME=openai/gpt-4o-mini
+```
+
+### 4. Separate Generator and Judge Models
+To mitigate LLM-as-judge self-preference bias (discussed in `REPORT.md` §6), you can specify different models for generation and judging:
+- `MODEL_NAME`: Used by the agent for intent classification and reply drafting.
+- `JUDGE_MODEL_NAME`: Used by `eval/judge.py` for 4-dimension rubric scoring.
+
+---
+
 ## Expected Per-Step Runtimes
 
 Measured on Apple Silicon M-series (10-core CPU, 16GB RAM) running end-to-end:
