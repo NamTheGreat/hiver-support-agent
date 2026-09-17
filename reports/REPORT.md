@@ -140,6 +140,8 @@ All three systems were evaluated on the exact same 180 golden evaluation example
 | | **Actionability (1-5)** | 2.00 | 3.02 | **3.70** |
 | | **Composite Score (1-5)** | 2.25 | 3.55 | **4.34** |
 
+![Figure 1: System Comparison Across 3 Baselines](figures/system_comparison.png)
+
 ### Per-Class Intent Breakdown (Agent)
 | Intent Class | Precision | Recall | F1-Score | Golden Support |
 | :--- | :---: | :---: | :---: | :---: |
@@ -158,6 +160,8 @@ All three systems were evaluated on the exact same 180 golden evaluation example
 - `NEGATIVE_SENTIMENT` (VADER $\le -0.5$): 24 queries (13.3%)
 - `AUTO_HANDLE` (Approved): 42 queries (23.3%)
 
+![Figure 2: Routing Escalation Reason Breakdown](figures/routing_breakdown.png)
+
 ---
 
 ## 4. Judge Validation & Human-Judge Agreement Calibration
@@ -171,6 +175,12 @@ To validate the LLM-as-Judge rubric, the author hand-scored a random sample of 5
 | **Tone** | **1.000** | **1.000** | **100.0%** | **100.0%** | 5.00 | 5.00 |
 | **Actionability** | 0.032 | 0.032 | 64.0% | **98.0%** | 4.08 | 3.70 |
 | **Composite Score** | **0.095** | **0.055** | 54.0% | **100.0%** | 4.47 | 4.35 |
+
+<p align="center">
+  <img src="figures/judge_dimensions.png" alt="Figure 3: Judge Rubric Dimensions by System" width="48%" />
+  <img src="figures/judge_human_scatter.png" alt="Figure 4: Human vs. LLM Judge Calibration Scatter" width="48%" />
+</p>
+
 
 ### Disagreement Case Analysis
 1. **Case ID 170 (Tweet `2220845`): Terse Greeting (`"Hey, :"`)**
